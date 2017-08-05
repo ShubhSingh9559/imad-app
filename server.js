@@ -67,6 +67,7 @@ var htmlTemplate=`
             <div>
             ${content}
             </div>
+            </div>
     </body>
 </html>
 `;
