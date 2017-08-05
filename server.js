@@ -59,14 +59,14 @@ var htmlTemplate=`
             <a href="/">Home</a>
         </div>
         <hr/>
-        <div class="container">
+            <div class="container">
         <h3>${heading}</h3>
-        <div>
-            ${date}
-        </div>
+                <div>
+                     ${date}
+                </div>
+            <div>
             ${content}
-        </div>
-        </div>
+            </div>
     </body>
 </html>
 `;
