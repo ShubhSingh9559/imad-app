@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articles={ 
+/*var articles={ 
     'artOne':{
     title:'Article One by Shubh',
     heading:'Article One',
@@ -72,7 +72,7 @@ var htmlTemplate=`
 `;
 return htmlTemplate;
 }
-
+*/
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
