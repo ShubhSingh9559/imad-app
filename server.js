@@ -70,7 +70,7 @@ var htmlTemplate=`
     </body>
 </html>
 `;
-return htmlTmeplate;
+return htmlTemplate;
 }
 
 app.get('/', function (req, res) {
