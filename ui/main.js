@@ -1,5 +1,5 @@
 //Code for counter
-var counter= document.getElementById('counter');
+var button= document.getElementById('counter');
 button.onclick= function(){
 
     //Create request for counter endpoint
